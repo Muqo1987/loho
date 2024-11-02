@@ -11,6 +11,7 @@ function App() {
       <Header/>
       <div>
         <Routes>
+          <Route path='/loho' element={<><Slider/><Content/></>}/>
           <Route path='/' element={<><Slider/><Content/></>}/>
           <Route path='/item' element={<><Item/></>}/>
         </Routes>
